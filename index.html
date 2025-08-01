@@ -57,20 +57,43 @@
     }
 
     .btn-whatsapp {
-      display: inline-block;
-      background-color: #25D366;
-      color: white;
-      padding: 12px 20px;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 5px;
-      margin-top: 20px;
-    }
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 18px 30px;  /* Aumenta o espaço interno */
+  font-size: 20px;      /* Aumenta o tamanho da fonte */
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-top: 25px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease;
+}
 
-    .btn-whatsapp:hover {
-      background-color: #1ebf5b;
-    }
+.btn-whatsapp:hover {
+  background-color: #1ebf5b;
+}
+.btn-whatsapp-fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
 
+.btn-whatsapp-fixed:hover {
+  background-color: #1ebf5b;
+}
     footer {
       background-color: #333;
       color: #fff;
